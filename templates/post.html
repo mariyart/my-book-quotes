@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div> 
+        <!-- Quote Box -->
+        <div class="block text-center"> 
+            <!-- Front part of the Quote Box -->
+            <div class = "quote-box block__main block__front"> 
+                <!-- Quote to be Displayed Here -->
+                <span class = "quote"> 
+                    
+                    <!-- Hyphen is Displayed  -->
+                    <i class="fas fa-2x fa-quote-left"></i> 
+            
+                    <!-- Quote Text -->
+                    <span class = "text"> 
+                        {{ post['content'] }}
+                    </span> 
+
+                    <!-- Hyphen is Displayed  -->
+                    <i class="fas fa-2x fa-quote-right"></i> 
+                </span> 
+            
+                <!-- Author to be Displayed Here -->
+                <div class = "author"> 
+                    {% block title %} {{ post['title'] }} {% endblock %}
+                </div>
+            </div> 
+        </div> 
+    </div> 
+{% endblock %}

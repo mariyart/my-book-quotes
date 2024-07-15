@@ -1,0 +1,105 @@
+*{ 
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+    text-align: center;
+} 
+
+body { 
+    min-height:100vh; 
+    transition: 0.5s; 
+    transition-timing-function: ease-in; 
+    background-image: linear-gradient(to right bottom, #586F6B, #B8B8AA); 
+} 
+
+.quote-box { 
+    padding:3rem; 
+    transition: 0.5s; 
+    transition-timing-function: ease-in; 
+} 
+
+.text{ 
+    font-size:30px; 
+    padding-left:10px; 
+    transition: 0.5s; 
+    transition-timing-function: ease-in; 
+    font-family: 'Roboto', sans-serif; 
+    background-image: linear-gradient(to right bottom, #586F6B, #B8B8AA); 
+    color: transparent; 
+    -webkit-background-clip: text; 
+} 
+
+.quote{ 
+    transition: 0.5s; 
+    transition-timing-function: ease-in; 
+} 
+
+.text-center{ 
+    text-align: center; 
+}
+
+.author{ 
+    margin:10px; 
+    font-size:20px; 
+    transition: 0.5s; 
+    transition-timing-function: ease-in; 
+    font-family: 'Open Sans Condensed', sans-serif; 
+    background-image: linear-gradient(to right bottom, #28313B,#485461
+    ); 
+    color: transparent; 
+    -webkit-background-clip: text; 
+}
+
+.block { 
+    perspective: 150rem; 
+    position: absolute; 
+    top:25%; 
+    left: 27%; 
+} 
+
+.block__main { 
+    min-width: 45vw; 
+    position: absolute; 
+    transition: all .8s ease; 
+    backface-visibility: hidden; 
+    box-shadow: 0rem 1.5rem 4rem rgba(0, 0, 0, 0.15); 
+    border-radius: .5rem;  
+    background-image: linear-gradient(to right bottom, #CFC0BD,#DDD5D0); 
+}
+
+.card-text {
+    padding: 2px;
+}
+
+.card-body {
+    margin: 5px;
+}
+
+.card {
+    margin: 10px; /* Added */
+    float: none; /* Added */
+    background-image: linear-gradient(to right bottom, #CFC0BD,#DDD5D0); 
+}
+
+h1 {
+    border: 5px #FFFF;
+    color: #CFC0BD;
+    text-align: center;
+    padding: 30px;
+}
+
+h2 {
+    color: #7F9183;
+    padding: 20px;
+}
+
+.nav-link {
+    color: #7F9183;
+}
+
+.input-form {
+    color: #586F6B;
+    font-size:25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
