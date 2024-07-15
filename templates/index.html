@@ -4,7 +4,7 @@
     <h1>{% block title %} Welcome to My Quote Database! {% endblock %}</h1>
     <div class="row">
         {% for post in posts %}
-            <div class="card w-auto p-3 mb-3 text-center">
+            <div class="card w-auto p-3 mb-3 text-center mx-auto">
                     <div class="card-body">
                         <a href="{{ url_for('post', post_id=post['id']) }}">
                             <h2 class="card-title">{{ post['title'] }}</h2>
