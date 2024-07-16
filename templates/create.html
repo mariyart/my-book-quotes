@@ -7,15 +7,15 @@
     <div class="card">
         <div class="card-body">
             <div class="form-group">
-                <label class="input-form" for="title">Title</label>
+                <label class="input-form" for="title">Author and Book</label>
                 <input type="text" name="title"
-                        placeholder="Post title" class="form-control"
+                        placeholder="Author and Book" class="form-control"
                         value="{{ request.form['title'] }}"></input>
             </div>
 
             <div class="form-group">
-                <label class="input-form" for="content">Content</label>
-                <textarea name="content" placeholder="Post content"
+                <label class="input-form" for="content">Quote</label>
+                <textarea name="content" placeholder="Quote"
                             class="form-control">{{ request.form['content'] }}</textarea>
             </div>
 
